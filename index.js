@@ -1,4 +1,4 @@
-const { ApolloServer, UserInputError, gql } = require('apollo-server')
+const { ApolloServer, UserInputError, gql, AuthenticationError } = require('apollo-server')
 const jwt = require('jsonwebtoken')
 
 const mongoose = require('mongoose')
